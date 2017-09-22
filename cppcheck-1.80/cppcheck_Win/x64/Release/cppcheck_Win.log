@@ -1,0 +1,159 @@
+﻿  Moc'ing mainwindow.h...
+  Uic'ing ..\gui\about.ui...
+  Moc'ing librarydialog.h...
+  Moc'ing libraryaddfunctiondialog.h...
+  Moc'ing libraryeditargdialog.h...
+  Moc'ing scratchpad.h...
+  Moc'ing settingsdialog.h...
+  Moc'ing txtreport.h...
+  Moc'ing translationhandler.h...
+  Moc'ing threadresult.h...
+  Moc'ing threadhandler.h...
+  Moc'ing statsdialog.h...
+  Moc'ing resultsview.h...
+  Moc'ing resultstree.h...
+  Moc'ing projectfiledialog.h...
+  Moc'ing projectfile.h...
+  Moc'ing project.h...
+  Moc'ing platforms.h...
+  Moc'ing logview.h...
+  Moc'ing applicationlist.h...
+  Moc'ing applicationdialog.h...
+  Moc'ing aboutdialog.h...
+  Moc'ing fileviewdialog.h...
+  Moc'ing checkthread.h...
+  Uic'ing ..\gui\application.ui...
+  Uic'ing ..\gui\logview.ui...
+  Uic'ing ..\gui\mainwindow.ui...
+  Uic'ing ..\gui\projectfiledialog.ui...
+  Uic'ing ..\gui\resultsview.ui...
+  Uic'ing ..\gui\scratchpad.ui...
+  Uic'ing ..\gui\settings.ui...
+  Uic'ing ..\gui\file.ui...
+  Uic'ing ..\gui\stats.ui...
+  Rcc'ing ..\gui\gui.qrc...
+  Uic'ing ..\gui\librarydialog.ui...
+  Uic'ing ..\gui\libraryaddfunctiondialog.ui...
+  Uic'ing ..\gui\libraryeditargdialog.ui...
+  simplecpp.cpp
+  tinyxml2.cpp
+  aboutdialog.cpp
+  application.cpp
+  applicationdialog.cpp
+  applicationlist.cpp
+  checkstatistics.cpp
+  checkthread.cpp
+  common.cpp
+  cppchecklibrarydata.cpp
+  csvreport.cpp
+  erroritem.cpp
+  filelist.cpp
+  fileviewdialog.cpp
+  libraryaddfunctiondialog.cpp
+  librarydialog.cpp
+  libraryeditargdialog.cpp
+  logview.cpp
+  main.cpp
+  mainwindow.cpp
+  正在生成代码...
+  正在编译...
+  platforms.cpp
+  printablereport.cpp
+  project.cpp
+  projectfile.cpp
+  projectfiledialog.cpp
+  report.cpp
+  resultstree.cpp
+  resultsview.cpp
+  scratchpad.cpp
+  settingsdialog.cpp
+  showtypes.cpp
+  statsdialog.cpp
+  threadhandler.cpp
+  threadresult.cpp
+  translationhandler.cpp
+  txtreport.cpp
+  xmlreport.cpp
+  xmlreportv1.cpp
+  xmlreportv2.cpp
+  analyzerinfo.cpp
+  正在生成代码...
+  正在编译...
+  astutils.cpp
+  check.cpp
+  check64bit.cpp
+  checkassert.cpp
+  checkautovariables.cpp
+  checkbool.cpp
+  checkboost.cpp
+  checkbufferoverrun.cpp
+  checkclass.cpp
+  checkcondition.cpp
+  checkexceptionsafety.cpp
+  checkfunctions.cpp
+  checkinternal.cpp
+  checkio.cpp
+  checkleakautovar.cpp
+  checkmemoryleak.cpp
+  checknullpointer.cpp
+  checkother.cpp
+  checkpostfixoperator.cpp
+  checksizeof.cpp
+  正在生成代码...
+  正在编译...
+  checkstl.cpp
+  checkstring.cpp
+  checktype.cpp
+  checkuninitvar.cpp
+  checkunusedfunctions.cpp
+  checkunusedvar.cpp
+  checkvaarg.cpp
+  cppcheck.cpp
+  errorlogger.cpp
+  importproject.cpp
+  library.cpp
+  mathlib.cpp
+  path.cpp
+  pathmatch.cpp
+  platform.cpp
+  preprocessor.cpp
+  settings.cpp
+  suppressions.cpp
+  symboldatabase.cpp
+  templatesimplifier.cpp
+  正在生成代码...
+  正在编译...
+  timer.cpp
+  token.cpp
+  tokenize.cpp
+  tokenlist.cpp
+  valueflow.cpp
+  moc_aboutdialog.cpp
+  moc_applicationdialog.cpp
+  moc_applicationlist.cpp
+  moc_checkthread.cpp
+  moc_fileviewdialog.cpp
+  moc_libraryaddfunctiondialog.cpp
+  moc_librarydialog.cpp
+  moc_libraryeditargdialog.cpp
+  moc_logview.cpp
+  moc_mainwindow.cpp
+  moc_platforms.cpp
+  moc_project.cpp
+  moc_projectfile.cpp
+  moc_projectfiledialog.cpp
+  moc_resultstree.cpp
+  正在生成代码...
+  正在编译...
+  moc_resultsview.cpp
+  moc_scratchpad.cpp
+  moc_settingsdialog.cpp
+  moc_statsdialog.cpp
+  moc_threadhandler.cpp
+  moc_threadresult.cpp
+  moc_translationhandler.cpp
+  moc_txtreport.cpp
+  正在生成代码...
+  qrc_gui.cpp
+  cppcheck_Win.vcxproj -> D:\Code\cppcheck\cppcheck-1.80\x64\Release\cppcheck_Win.exe
+  cppcheck_Win.vcxproj -> D:\Code\cppcheck\cppcheck-1.80\x64\Release\cppcheck_Win.pdb (Full PDB)

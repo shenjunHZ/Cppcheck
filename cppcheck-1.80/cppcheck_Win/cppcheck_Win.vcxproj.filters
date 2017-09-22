@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{a20cf458-72c6-439d-a0e9-be59c9cdedf8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{9f7375c3-b495-45f5-b679-b0cd2d96bce0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{0b02c778-ef0f-47ef-a310-e5d27b3f5bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="externals">
+      <UniqueIdentifier>{47d07fa7-2252-4b56-9473-22c07fa02e35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\gui\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\applicationdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\applicationlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\checkstatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\checkthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\resultstree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_checkthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_checkthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_fileviewdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_fileviewdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_aboutdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_applicationdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_applicationdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_applicationlist.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_applicationlist.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_logview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_logview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_platforms.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_platforms.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_project.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_project.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_projectfile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_projectfile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_projectfiledialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_projectfiledialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_resultstree.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_resultstree.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_resultsview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_resultsview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_statsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_statsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_threadhandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_threadhandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_threadresult.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_threadresult.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_translationhandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_translationhandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_txtreport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_txtreport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_gui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\csvreport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\erroritem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\filelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\fileviewdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\logview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\xmlreportv1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\xmlreportv2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\platforms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\projectfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\projectfiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\report.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\resultsview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\scratchpad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\settingsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\showtypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\statsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\threadhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\threadresult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\translationhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\txtreport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\xmlreport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_scratchpad.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_scratchpad.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settingsdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\librarydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_librarydialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_librarydialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\cppchecklibrarydata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_libraryaddfunctiondialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_libraryaddfunctiondialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\libraryaddfunctiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_libraryeditargdialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_libraryeditargdialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\libraryeditargdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\printablereport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\externals\tinyxml\tinyxml2.cpp">
+      <Filter>externals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\externals\simplecpp\simplecpp.cpp">
+      <Filter>externals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkuninitvar.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkunusedfunctions.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkunusedvar.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkvaarg.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\analyzerinfo.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\astutils.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\check.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\check64bit.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkassert.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkautovariables.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkbool.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkboost.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkbufferoverrun.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkclass.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkcondition.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkexceptionsafety.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkfunctions.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkinternal.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkio.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkleakautovar.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkmemoryleak.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checknullpointer.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkother.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkpostfixoperator.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checksizeof.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkstl.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checkstring.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\checktype.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\cppcheck.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\errorlogger.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\importproject.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\mathlib.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\path.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\pathmatch.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\library.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\suppressions.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\symboldatabase.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\templatesimplifier.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\timer.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\token.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\tokenize.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\tokenlist.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\valueflow.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\platform.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\preprocessor.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\settings.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\gui\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\about.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\application.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\logview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\projectfiledialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\resultsview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\scratchpad.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\settings.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\file.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\stats.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\checkthread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\fileviewdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\applicationdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\applicationlist.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\logview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\platforms.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\project.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\projectfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\projectfiledialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\resultstree.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\resultsview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\statsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\threadhandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\threadresult.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\translationhandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\txtreport.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\gui.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\scratchpad.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\settingsdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\librarydialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\librarydialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\libraryaddfunctiondialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\libraryaddfunctiondialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\libraryeditargdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\gui\libraryeditargdialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_about.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_application.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_logview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_projectfiledialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_resultsview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_scratchpad.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_settings.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_file.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_stats.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\checkstatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\csvreport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\erroritem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\filelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\showtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\xmlreport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\xmlreportv1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\xmlreportv2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_librarydialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\cppchecklibrarydata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_libraryaddfunctiondialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_libraryeditargdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\printablereport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externals\tinyxml\tinyxml2.h">
+      <Filter>externals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externals\simplecpp\simplecpp.h">
+      <Filter>externals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checktype.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkuninitvar.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkunusedfunctions.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkunusedvar.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkvaarg.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\analyzerinfo.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\astutils.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\check.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\check64bit.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkassert.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkautovariables.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkbool.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkboost.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkbufferoverrun.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkclass.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkcondition.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkexceptionsafety.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkfunctions.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkinternal.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkio.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkleakautovar.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkmemoryleak.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checknullpointer.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkother.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkpostfixoperator.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checksizeof.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkstl.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\checkstring.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\config.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cppcheck.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\cxx11emu.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\errorlogger.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\importproject.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\matchcompiler.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\mathlib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\path.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\pathmatch.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\library.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\suppressions.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\symboldatabase.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\templatesimplifier.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\timer.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\token.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\tokenize.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\tokenlist.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\utils.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\valueflow.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\version.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\platform.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\preprocessor.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\settings.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\standards.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\gui\cppcheck-gui.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\dialog-error.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\dialog-information.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\dialog-warning.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\edit-clear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\go-down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\help-browser.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\media-floppy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\preferences-system.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\process-stop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\text-x-generic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\view-recheck.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\view-refresh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\showerrors.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\showstylewarnings.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\openproject.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\scratchpad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\showwarnings.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\showperformance.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\utilities-system-monitor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\go-home.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\go-next.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\go-previous.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\applications-development.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\images\applications-system.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\gui\cppcheck.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\COPYING">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\AUTHORS">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\gui\cppcheck-gui.rc" />
+  </ItemGroup>
+</Project>
